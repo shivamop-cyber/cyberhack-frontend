@@ -1,0 +1,22 @@
+.container {
+    background-color: #263143;
+    color: white;
+    align-self: flex-end;
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-bottom: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    border: 1px solid rgb(177, 152, 12);
+}
+
+@media only screen and (max-width: 520px) { 
+    .container {
+        align-self: center;
+    }
+}

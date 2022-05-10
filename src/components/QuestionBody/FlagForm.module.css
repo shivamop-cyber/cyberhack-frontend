@@ -1,0 +1,60 @@
+.form {
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flagcontainer {
+    font-size: 70px;
+}
+
+
+.forminput {
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.formbtn {
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 20px;
+    background-color: rgb(240, 240, 10);
+    color: rgb(34, 21, 21);
+    transition: all 0.3s;
+}
+
+.formbtn:hover {
+    transform:scale(1.08);
+}
+
+
+.spinner {
+    display: flex;
+    margin-top: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert { 
+    margin: 7px 0 20px 0; 
+    width: 62%;
+}
+
+@media only screen and (max-width: 520px) { 
+   .forminput {
+        width: 100%;
+    }
+    .alert {
+        width: 100%;
+    }
+}

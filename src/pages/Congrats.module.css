@@ -1,0 +1,93 @@
+.container {
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(6, 6, 7, 0.719),
+        rgb(33, 34, 39)
+      ), url("../images/congo-bg.gif");
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    background-color: #263143e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.cyberhacklogo {
+    height: 5vh;
+}
+
+.congocontainer {
+    height: 85vh;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.congotext {
+    font-size: 5vh;
+    color: white;
+}
+
+.congoimg {
+    height: 40vh;
+}
+
+.bottom {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.line {
+    border: 1px dashed;
+    margin-bottom: 2vh;
+}
+
+.underline {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    color: red;
+}
+
+.trouble {
+    font-size: 2vh;
+}
+
+@media only screen and (min-width: 520px) {
+    .nav {
+        height: 12vh;
+    }
+    
+    .cyberhacklogo {
+        height: 7vh;
+    }
+
+    .congotext {
+        font-size: 7vh;
+        color: white;
+    }
+
+    .congoimg {
+        height: 30vh;
+    }
+
+    .trouble {
+        font-size: 3vh;
+    }
+
+    .trouble {
+        font-size: 3vh;
+    }
+
+    .bottom {
+        font-size: 5vh;
+    }
+}
